@@ -30,4 +30,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: Deploy Using surge
-      run: surge ./ assignment01.surge.sh --token $ {{ secrets.ASSIGNMENMT_01 }}
+      run: surge ./ assignment01.surge.sh --token $ {{ secrets.ASSIGNMENT_01 }}
